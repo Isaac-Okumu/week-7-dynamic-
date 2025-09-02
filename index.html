@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Cards Demo</title>
+  <meta name="description" content="A fun interactive demo with animated cards using CSS and JavaScript. Hover, click, and watch the magic!">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Magic Cards Demo</h1>
+    <p>Hover over the cards, click the buttons, and watch the magic unfold!</p>
+  </header>
+
+  <main class="card-container">
+    <div class="card">
+      <h2>Magic Color</h2>
+      <p>Click to change the background color randomly.</p>
+      <button onclick="changeBackground()">✨ Magic Color</button>
+    </div>
+
+    <div class="card">
+      <h2>Greeting Spell</h2>
+      <p>Click to receive a friendly greeting!</p>
+      <button onclick="showGreeting('Isack')">👋 Greet Me</button>
+    </div>
+
+    <div class="card">
+      <h2>Bounce Trick</h2>
+      <p>Click to make this card bounce magically!</p>
+      <button onclick="animateCard(this)">🎵 Animate Me</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Magic Cards Demo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
